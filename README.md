@@ -73,30 +73,6 @@ Retrieves the current state of your portfolio with detailed metrics.
 **POST /ask**  
 Accepts a JSON payload with a `question` field and returns an AI-generated response.
 
----
-
-## 📁 Project Structure
-
-```bash
-portfolio-gpt/
-├── backend/
-│   ├── agents/
-│   │   ├── askgpt.py
-│   │   └── reasoner.py
-│   ├── data/
-│   │   ├── news_fetcher.py
-│   │   └── price_fetcher.py
-│   ├── portfolio/
-│   │   └── zerodha.py
-│   └── main.py
-├── frontend/
-│   └── ui/  # Frontend application (if applicable)
-├── .env
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 🧐 How It Works
 
